@@ -78,5 +78,9 @@ int main() {
         printf("\n");
     }
     printf("\n");
+                           
+    delete [] input;
+    delete [] weights;
+    delete [] output;
     return 0;
 }
